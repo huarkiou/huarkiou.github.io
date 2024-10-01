@@ -1,0 +1,9 @@
+[book]
+authors = ["huarkiou"]
+language = "zh"
+multilingual = false
+src = "src"
+title = "huarkiou's documentations"
+
+[output.html]
+mathjax-support = true
