@@ -1,5 +1,3 @@
-# Chapter 1
+# ffmpeg
 
-$$ \int x dx = \frac{x^2}{2} + C $$
-
-$$ \begin{array}{cc} a & b \\ c & d \end{array} $$
+ffmpeg.exe -i input.mp4 -c:v copy -acodec aac -b:a 139k output2.mp4
