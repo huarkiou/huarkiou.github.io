@@ -6,3 +6,6 @@
 
 修改视频编码为hevc
 ``` ffmpeg -i input.mp4 -c:v hevc_nvenc output.mp4 ```
+
+合并无声视频与音轨为新视频，长度由最长的决定
+``` ffmpeg -i input.mp4 -i input.aac -vcodec copy -acodec copy output.mp4 ```
