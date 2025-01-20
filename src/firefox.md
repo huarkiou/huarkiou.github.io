@@ -4,6 +4,7 @@
 
 1. 安装垂直标签栏插件：Sidebery、树状标签页、Tab Center Reborn
 2. 浏览器地址栏输入 about:config，将toolkit.legacyUserProfileCustomizations.stylesheets值改为true;浏览器地址栏输入about:support，打开配置文件夹，新建文件夹命名为chrome，新建一个名叫 userChrome.css 的文件，粘贴以下代码
+
    ```css
        @-moz-document url("chrome://browser/content/browser.xhtml") {
 
