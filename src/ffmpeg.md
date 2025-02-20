@@ -8,3 +8,6 @@
 
 合并无声视频与音轨为新视频，长度由最长的决定
 ``` ffmpeg -i input.mp4 -i input.aac -vcodec copy -acodec copy output.mp4 ```
+
+将字幕封入视频
+``` ffmpeg -i input.mkv -i input.ass -codec copy -map 0 -map 1 -disposition:s:0 default output.mkv ```
